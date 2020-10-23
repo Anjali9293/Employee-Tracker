@@ -50,7 +50,7 @@ Design the following database schema containing three tables:
 
 ![Database Schema](/Assets/snapshots/schema.png)
 
-![User Prompts](/Assets/snapshots/userpromptsPNG)
+![User Prompts](/Assets/snapshots/userprompts.PNG)
 
 ![View Employees](/Assets/snapshots/viewemployees.PNG)
 
@@ -60,9 +60,13 @@ Design the following database schema containing three tables:
 
 ![View employees by Department](/Assets/snapshots/viewemployeebydptmnt.PNG)
 
-![View employees by Manager](/Assets/snapshots/viewembymanager.PNG)
+![View employees by Manager](/Assets/snapshots/employeeTracker.gif)
 
+Click the link below to watch how the application works:
 
+[Video Link](https://youtu.be/lFHZ7SNGBXk)
+
+![Video demo](/Assets/Video/Template-Engine.gif)
 
 ## Credits
 
