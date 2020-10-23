@@ -60,13 +60,13 @@ Design the following database schema containing three tables:
 
 ![View employees by Department](/Assets/snapshots/viewemployeebydptmnt.PNG)
 
-![View employees by Manager](/Assets/snapshots/employeeTracker.gif)
+![View employees by Manager](/Assets/snapshots/viewembymanager.PNG)
 
 Click the link below to watch how the application works:
 
 [Video Link](https://youtu.be/lFHZ7SNGBXk)
 
-![Video demo](/Assets/Video/Template-Engine.gif)
+![Video demo](/Assets/snapshots/employeeTracker.gif)
 
 ## Credits
 
