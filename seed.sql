@@ -41,21 +41,3 @@ INSERT INTO `employee` (`id`, `first_name`, `last_name`, `role_id`, `manager_id`
     (5, 'Malia', 'Brown', 5, null),
     (6, 'Sarah', 'Lourd', 6, null),
     (7, 'Tom', 'Allen', 7, 6);
-    
-SELECT 
-	employee.id,
-    employee.first_name,
-    employee.last_name,
-    employeeRole.title,
-	department.name,
-    employeeRole.salary,
-    CONCAT(manager.first_name, ' ', manager.last_name) as manager
-FROM `employee`
-	LEFT JOIN `role` AS employeeRole ON employee.role_id = employeeRole.id 
-	LEFT JOIN `department` AS department ON employeeRole.department_id = department.id 
-	LEFT JOIN `employee` AS manager ON employee.manager_id = manager.id;
-
-SELECT department.name, SUM(employeeRole.salary) as total FROM employee 
-	LEFT JOIN `role` AS employeeRole ON employee.role_id = employeeRole.id 
-	LEFT JOIN `department` AS department ON employeeRole.department_id = department.id 
-	GROUP BY department.name;
