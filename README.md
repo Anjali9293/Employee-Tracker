@@ -47,6 +47,23 @@ Design the following database schema containing three tables:
 * Application allows user to delete departments,roles and employees.
 * Application allows user to View the total utilized budget of a department -- ie the combined salaries of all employees in that department
 
+
+![Database Schema](/Assets/snapshots/schema.png)
+
+![User Prompts](/Assets/snapshots/userpromptsPNG)
+
+![View Employees](/Assets/snapshots/viewemployees.PNG)
+
+![View Departments](/Assets/snapshots/viewdepartments.PNG)
+
+![View Roles](/Assets/snapshots/viewroles.PNG)
+
+![View employees by Department](/Assets/snapshots/viewemployeebydptmnt.PNG)
+
+![View employees by Manager](/Assets/snapshots/viewembymanager.PNG)
+
+
+
 ## Credits
 
 **[Anjali Pant](https://github.com/Anjali9293)**
