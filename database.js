@@ -1,6 +1,7 @@
 const mysql = require( 'mysql' );
 const ctable = require('console.table');
 
+// wrapper to create promise around mysql
 class Database {
     constructor( config ) {
         this.connection = mysql.createConnection( config );
@@ -13,9 +14,6 @@ class Database {
                 resolve( rows );
             } );
         } );
-    }
-    ctableRender() {
-
     }
     close() {
         return new Promise( ( resolve, reject ) => {

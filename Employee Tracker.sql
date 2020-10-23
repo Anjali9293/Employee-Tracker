@@ -53,4 +53,9 @@ SELECT
 FROM `employee`
 	LEFT JOIN `role` AS employeeRole ON employee.role_id = employeeRole.id 
 	LEFT JOIN `department` AS department ON employeeRole.department_id = department.id 
-	LEFT JOIN `employee` AS manager ON employee.manager_id = manager.id 
+	LEFT JOIN `employee` AS manager ON employee.manager_id = manager.id;
+
+SELECT department.name, SUM(employeeRole.salary) as total FROM employee 
+	LEFT JOIN `role` AS employeeRole ON employee.role_id = employeeRole.id 
+	LEFT JOIN `department` AS department ON employeeRole.department_id = department.id 
+	GROUP BY department.name;
